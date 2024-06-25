@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>StudyCommands-Java</title>
+    <style>
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>StudyCommands</h1>
+        <div class="Fbox" align="center">
+            <h2>ご協力ありがとうございました！</h2><br>
+        </div>
+    </header>
+    <div class="Fbox" align="center">
+        <p onclick="goBack()" class="submitButton" >ホームに戻る</p>
+    </div>
+    <script>
+        currentNumber = 0
+
+        function goBack() {
+            // 戻るボタンの処理
+            const homeURL =  "https://gekiochibot.github.io/StudyCommands/"
+            window.location.href = homeURL;
+        }
+    </script>
+</body>
